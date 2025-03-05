@@ -10,7 +10,7 @@ largest = arr[i];
 return largest;
 }
 int main() {
-int arr[] = {10, 20, 30, 40, 50};
+int arr[] = {10, 20, 30, 40, 50,200};
 int size = sizeof(arr) / sizeof(arr[0]);
 int largest = findLargestNumber(arr, size);
 cout << "The largest number in the array is: " << largest <<
